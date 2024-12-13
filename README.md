@@ -11,12 +11,8 @@ This is a Spring Boot application for managing flowcharts, including creating, u
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
   - [Running Locally](#running-locally)
-  - [Running with Docker](#running-with-docker)
   - [Running Tests](#running-tests)
 - [API Documentation](#api-documentation)
-- [GitHub Actions CI/CD](#github-actions-cicd)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -51,4 +47,16 @@ cd flowchart-app<br>
 ## **Set Up the Database**
 
 If you're using MySQL, make sure the database exists, and you have the correct credentials set up in src/main/resources/application.properties:<br>
-
+spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+<br>
+If you're using H2, make sure to mention the below properties <br>
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=password
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
