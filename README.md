@@ -47,12 +47,12 @@ cd flowchart-app<br>
 ## **Set Up the Database**
 
 If you're using MySQL, make sure the database exists, and you have the correct credentials set up in src/main/resources/application.properties:<br>
-spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+- spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+- spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+- spring.datasource.username=your_username
+- spring.datasource.password=your_password
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
 <br>
 If you're using H2, make sure to mention the below properties <br>
 spring.datasource.url=jdbc:h2:mem:testdb
