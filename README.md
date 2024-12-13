@@ -41,12 +41,12 @@ Before running this project, ensure you have the following software installed on
 
 ### **Clone the Repository**
 
-git clone https://github.com/debashis-dev/Flowchart-Management.git<br>
-cd flowchart-app<br>
+- git clone https://github.com/debashis-dev/Flowchart-Management.git
+- cd flowchart-app
 
 ## **Set Up the Database**
 
-If you're using MySQL, make sure the database exists, and you have the correct credentials set up in src/main/resources/application.properties:<br>
+If you're using MySQL, make sure the database exists, and you have the correct credentials set up in src/main/resources/application.properties:
 - spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
 - spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 - spring.datasource.username=your_username
@@ -55,8 +55,16 @@ If you're using MySQL, make sure the database exists, and you have the correct c
 - spring.jpa.show-sql=true
 <br>
 If you're using H2, make sure to mention the below properties <br>
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=password
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+- spring.datasource.url=jdbc:h2:mem:testdb
+- spring.datasource.driverClassName=org.h2.Driver
+- spring.datasource.username=sa
+- spring.datasource.password=password
+- spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+Also if you want to change the port number, then mention it in application.properties
+- server.port = 9123 (required port number)
+
+## **Run Application**
+- Run the Application as well as the test cases from the IDE
+
+## **API Documentation**
+## **POST**
