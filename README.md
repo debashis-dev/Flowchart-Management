@@ -54,7 +54,7 @@ If you're using MySQL, make sure the database exists, and you have the correct c
 - spring.jpa.hibernate.ddl-auto=update
 - spring.jpa.show-sql=true
 <br>
-If you're using H2, make sure to mention the below properties <br>
+If you're using H2, make sure to mention the below properties:
 - spring.datasource.url=jdbc:h2:mem:testdb
 - spring.datasource.driverClassName=org.h2.Driver
 - spring.datasource.username=sa
