@@ -60,7 +60,7 @@ If you're using H2, make sure to mention the below properties:
 - spring.datasource.username=sa
 - spring.datasource.password=password
 - spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-Also if you want to change the port number, then mention it in application.properties
+## Also if you want to change the port number, then mention it in application.properties
 - server.port = 9123 (required port number)
 
 ## **Run Application**
