@@ -45,5 +45,10 @@ Before running this project, ensure you have the following software installed on
 
 ### **Clone the Repository**
 
-git clone https://github.com/debashis-dev/Flowchart-Management.git
-cd flowchart-app
+git clone https://github.com/debashis-dev/Flowchart-Management.git<br>
+cd flowchart-app<br>
+
+## **Set Up the Database**
+
+If you're using MySQL, make sure the database exists, and you have the correct credentials set up in src/main/resources/application.properties:<br>
+
