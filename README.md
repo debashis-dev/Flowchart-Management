@@ -67,4 +67,6 @@ Also if you want to change the port number, then mention it in application.prope
 - Run the Application as well as the test cases from the IDE
 
 ## **API Documentation**
-## **POST**
+- You can get the API documentation from the swagger api by running
+- [Swagger-api](http://localhost:9123/swagger-ui.html)
+
